@@ -1,0 +1,10 @@
+xpack.monitoring.enabled: false
+xpack.management.enabled: false
+
+config.reload.automatic: true
+config.reload.interval: 6s
+
+log.level: info
+log.format: json
+
+path.config: /conf.d/*.conf

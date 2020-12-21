@@ -1,0 +1,9 @@
+
+version: '3'
+services:
+
+  logstash:
+    build: .
+    volumes:
+      - ./conf.d:/conf.d
+      - ./logstash.yml:/usr/share/logstash/config/logstash.yml
